@@ -1,0 +1,131 @@
+.title{
+  height:100px; /*add height:100px */
+  background-color: white;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 45; 
+  text-align:center;
+}
+.page {
+  background-color: red;
+  height:80%;
+  margin-left :10%;
+  margin-right:10%;
+}
+.sidebar {  /* ADD sidebar CSS selector */
+  float:left;
+  width:30%;
+  height:1440px;
+  background-color: #F09A9D;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 25;
+
+}
+.heads{
+  font-size: 20;
+  font-family: "Trebuchet MS";
+  float:left;
+}
+.content {
+  float:left;
+  /*height: 1300px; /*change for 500px */
+  width:70%;
+  background-color: #D6E9FE;
+}
+.leftcolumn {
+  float: left;
+  width: 40%;
+  margin: 20px 1.15%;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+.rightcolumn {
+  float: left;
+  width: 40%;
+  margin: 20px 1.15%;
+  min-height: 250px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+.footer{
+  height: 300px;
+}
+.container {
+  float:left;
+
+  width: 100%;
+  height: 360px;
+}
+
+.forward {
+  width:100%;
+  height:200px;
+}
+.thumbup {
+  width:25px;
+  height:25px;
+}
+.stats {
+  float:left ;
+  width:300px;
+}
+.commentcontainer{
+  font-size: 20;
+  font-family: "Trebuchet MS";
+  float:left;
+
+}
+.commenter{
+float:right;
+width : 328px;
+}
+
+.review{
+font-size: 20;
+font-family: "Arial";
+float:left;
+}
+
+p{
+clear:both;
+}
+ */h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+  display: inline;
+}
+
+
+
+em, strong {
+  background-color: #B2D6FF;    /* Light blue */
+
+
+
+}
+ul {
+  display:inline-block;
+}
+
+li{
+  float:left;
+  margin-right: 1px
+}
+li a {
+  display:block;
+  min-width:139px;
+  height : 50px;
+  text-align:center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #2f3036;
+  line-height:50px;
+  text-decoration: none;
+}
+li:hover a {
+  color:black;
+  background : green;
+}
+.menus{
+  text-align:center;
+  height:20%;
+  background-color:grey;ds
+  width: 100%;
+
+}
