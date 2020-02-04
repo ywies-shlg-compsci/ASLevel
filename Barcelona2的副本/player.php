@@ -37,6 +37,9 @@
         echo "<p>";
         echo $Player['Firstname']." - " . $Player['Lastname'];
         echo "</p>";
+        echo"";
       }
+
+
 
       }
